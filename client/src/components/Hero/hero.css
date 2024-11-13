@@ -1,10 +1,9 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(139, 6, 46, 0.6), rgba(139, 6, 46, 0.6)), url('../../assets/background-image.png');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,22 +13,65 @@
 .hero-text{
     text-align: center;
     max-width: 1000px;
-
 }
 
 .hero-text h1{
     font-size: 60px;
     font-weight: 600;
+    background: linear-gradient(
+        to right,
+        rgb(117, 0, 35),
+        rgb(128, 0, 106),
+        rgb(73, 3, 139),
+        rgb(16, 0, 189),
+        rgb(0, 132, 155),
+        rgb(16, 0, 189),
+        rgb(73, 3, 139),
+        rgb(128, 0, 106)
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 .hero-text h2{
     font-size: 30px;
     font-weight: 600;
+    font-family: "Bricolage Grotesque", sans-serif;
+    border-right: 5px solid;
+    letter-spacing: 3px;
+    max-width: fit-content;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 5s,
+        cursor .45s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 }
 }
 
 .hero-text p{
-    max-width: 700px;
+    width: 90%;
     margin: 10px auto 20px;
-    list-style: 1.4;
-    font-size: 17px;
+    line-height: 1.4;
+    font-size: 22px;
+    font-family: "Bricolage Grotesque", sans-serif;
+
 }
