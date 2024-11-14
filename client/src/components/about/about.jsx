@@ -6,10 +6,13 @@ const About = () => {
   return (
     <div className='about'>
         <div className="section">
-            <h3>ABOUT</h3>
+          <h3>ABOUT</h3>
         </div>
         <div className="section">
-            <h3>SKILLS</h3>
+          <h3>EDUCATION</h3>
+        </div>
+        <div className="section">
+          <h3>SKILLS</h3>
         </div>
     </div>
   )

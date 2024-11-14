@@ -13,7 +13,7 @@ export const Navbar = () => {
         <li><button className='btn'>Home</button></li>
         <li><button className='btn'>About</button></li>
         <li><button className='btn'>Experience</button></li>
-        <li><button className='btn'>projects</button></li>
+        <li><button className='btn'>Projects</button></li>
       </ul>
     </nav>
   )

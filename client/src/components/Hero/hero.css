@@ -20,15 +20,55 @@
     font-weight: 600;
     background: linear-gradient(
         to right,
-        rgb(117, 0, 35),
-        rgb(128, 0, 106),
-        rgb(73, 3, 139),
-        rgb(128, 0, 106)
+        rgb(255, 181, 107),
+        rgb(253, 175, 105),
+        rgb(248, 157, 99),
+        rgb(245, 151, 97),
+        rgb(239, 134, 94),
+        rgb(236, 128, 93),
+        rgb(227, 110, 92),
+        rgb(223, 104, 92),
+        rgb(213, 88, 92),
+        rgb(209, 82, 92),
+        rgb(196, 65, 93),
+        rgb(192, 59, 93),
+        rgb(178, 44, 94),
+        rgb(172, 38, 94),
+        rgb(156, 21, 95),
+        rgb(149, 15, 95),
+        rgb(131, 0, 96),
+        rgb(124, 0, 96),
+        rgb(104, 0, 96),
+        rgb(96, 0, 95),
+        rgb(72, 0, 95),
+        rgb(61, 0, 94),
+        rgb(61, 0, 94),   
+        rgb(72, 0, 95),   
+        rgb(96, 0, 95),   
+        rgb(104, 0, 96),  
+        rgb(124, 0, 96),  
+        rgb(131, 0, 96),  
+        rgb(149, 15, 95), 
+        rgb(156, 21, 95), 
+        rgb(172, 38, 94), 
+        rgb(178, 44, 94), 
+        rgb(192, 59, 93), 
+        rgb(196, 65, 93), 
+        rgb(209, 82, 92), 
+        rgb(213, 88, 92), 
+        rgb(223, 104, 92),
+        rgb(227, 110, 92),
+        rgb(236, 128, 93),
+        rgb(239, 134, 94),
+        rgb(245, 151, 97),
+        rgb(248, 157, 99),
+        rgb(253, 175, 105),
+        rgb(255, 181, 107) 
     );
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
-    animation: gradientAnimation 5s linear infinite;
+    animation: gradientAnimation 6s linear infinite;
 }
 
 @keyframes gradientAnimation{
