@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import logo from '../../assets/blacklogo.png';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export const Navbar = () => {
   return (

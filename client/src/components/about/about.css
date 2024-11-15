@@ -1,73 +1,177 @@
 .about{
     margin: 80px auto;
     width: 90%;
+    height: fit-content;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+
 }
 
 .left {
     flex-basis: 50%;
-    align-self: flex-start; /* Align left section to the top vertically */
-    padding: 10px;
+    align-self: flex-start; 
+    padding-right: 15px;
 }
 .left p{
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .right {
     flex-basis: 50%;
-    display: flex; /* Stack the right sections vertically */
-    flex-direction: column; /* Align children vertically */
-    align-items: flex-start; /* Optional: align the top/bottom sections to the left */
+    flex-direction: column; 
 }
 
 .top, .bottom {
     padding: 15px;
-    margin-bottom: 10px; /* Space between top and bottom sections */
+    margin-bottom: 10px; 
   }
 
 .section{
     width: 100%;
-    min-height: 100%;
-    background-color: #830060;
+    height: fit-content;
+    background-color: rgb(255, 181, 107);
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
-}
-
-.section img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    background-color: rgb(61, 211, 191);
 }
 
 .section h3{
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 25px;
     margin-bottom: 15px;
-
+    color: rgb(131, 0, 96);
 }
 
-.space{
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-    display: block;
-    background-color: rgb(61, 211, 191);
+h3 i{
+    padding-left: 5px;
 }
 
 ul{
-    margin: 20px;
+    padding-bottom: 5px;
+    display: flex;
     justify-content: center;
-    align-self: center;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
 }
 
 li{
     width: fit-content;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(131, 0, 96);
+    margin-right: 20px;
 }
+
+li::marker{
+    color: transparent;
+}
+
+li i{
+    padding-right: 7px;
+    color: rgba(131, 0, 96, 1);
+}
+
+.card{
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(255, 181, 107);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card h2{
+    color: #c5415d;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 18px;
+}
+
+.card ul{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card li{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 12px;
+    color: black;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.card i{
+    color: #c5415d;
+}
+
+.border{
+    margin: 0 auto;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), white, rgb(255, 181, 107), rgb(255, 181, 107), white);
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    animation: 3s spin linear infinite;
+    margin-bottom: 10px;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+.skill-card{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(255, 181, 107, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-align: justify;
+}
+
+.skill-card h2{
+    color: #c5415d;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-list li{
+    background: #c5415d;
+    color: #212121;
+    padding: 2px 8px;
+    font-size: 15px;
+    border-radius: 20px;
+    outline: 0;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+
+
 

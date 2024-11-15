@@ -12,8 +12,8 @@ const Hero = () => {
             <h1>Welcome to my website</h1>
             <p>
                 I'm a Computer Engineering graduate with college experience in game, web, console and desktop app 
-                development and static/dinamic testing; profesional experience as a Cloud Engineer working with 
-                GCP and end-to-end testing with playwright
+                development and static/dinamic testing; profesional experience as a Cloud Engineer analyzing GCP 
+                services and creating end-to-end testing with playwright
             </p>
             <button 
                 className='btn'
