@@ -10,9 +10,7 @@ const App = () => {
       <Cursor/>
       <Navbar/>
       <Hero/>
-      <div className='container'> 
-        <About/>
-      </div>
+      <About/>
       
     </div>
   )

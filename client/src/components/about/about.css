@@ -1,12 +1,9 @@
 .about{
     margin: 80px auto;
     width: 90%;
-    height: fit-content;
+    height: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
     color: rgb(0, 0, 0);
-    position: relative;
 
 }
 
@@ -14,6 +11,9 @@
     flex-basis: 50%;
     align-self: flex-start; 
     padding-right: 15px;
+    height: 100%;
+    position: relative;
+
 }
 .left p{
     margin-bottom: 15px;
@@ -26,20 +26,19 @@
 }
 
 .top, .bottom {
-    padding: 15px;
+    padding-left: 15px;
     margin-bottom: 10px; 
   }
 
 .section{
     width: 100%;
-    height: fit-content;
+    height: 100%;
     background-color: rgb(255, 181, 107);
     border-radius: 10px;
-    overflow: hidden;
     padding: 15px;
 }
 
-.section h3{
+h3{
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 25px;
     margin-bottom: 15px;
@@ -78,7 +77,7 @@ li i{
 .card{
     margin: 0 auto;
     width: 100%;
-    background: rgb(255, 181, 107);
+    background: #f5f5f5;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
@@ -95,6 +94,8 @@ li i{
     align-content: center;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .card li{
@@ -112,7 +113,51 @@ li i{
 .border{
     margin: 0 auto;
     width: 100%;
-    background-image: conic-gradient(from var(--angle), white, rgb(255, 181, 107), rgb(255, 181, 107), white);
+    background-image: conic-gradient(from var(--angle), 
+        rgb(255, 181, 107),
+        rgb(253, 175, 105),
+        rgb(248, 157, 99),
+        rgb(245, 151, 97),
+        rgb(239, 134, 94),
+        rgb(236, 128, 93),
+        rgb(227, 110, 92),
+        rgb(223, 104, 92),
+        rgb(213, 88, 92),
+        rgb(209, 82, 92),
+        rgb(196, 65, 93),
+        rgb(192, 59, 93),
+        rgb(178, 44, 94),
+        rgb(172, 38, 94),
+        rgb(156, 21, 95),
+        rgb(149, 15, 95),
+        rgb(131, 0, 96),
+        rgb(124, 0, 96),
+        rgb(104, 0, 96),
+        rgb(96, 0, 95),
+        rgb(72, 0, 95),
+        rgb(61, 0, 94),
+        rgb(61, 0, 94),   
+        rgb(72, 0, 95),   
+        rgb(96, 0, 95),   
+        rgb(104, 0, 96),  
+        rgb(124, 0, 96),  
+        rgb(131, 0, 96),  
+        rgb(149, 15, 95), 
+        rgb(156, 21, 95), 
+        rgb(172, 38, 94), 
+        rgb(178, 44, 94), 
+        rgb(192, 59, 93), 
+        rgb(196, 65, 93), 
+        rgb(209, 82, 92), 
+        rgb(213, 88, 92), 
+        rgb(223, 104, 92),
+        rgb(227, 110, 92),
+        rgb(236, 128, 93),
+        rgb(239, 134, 94),
+        rgb(245, 151, 97),
+        rgb(248, 157, 99),
+        rgb(253, 175, 105),
+        rgb(255, 181, 107) );
     border-radius: 10px;
     padding: 5px;
     position: relative;
@@ -156,20 +201,21 @@ li i{
 .skill-list{
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
 }
 
 .skill-list li{
     background: #c5415d;
-    color: #212121;
+    color: white;
     padding: 2px 8px;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 20px;
     outline: 0;
     align-items: center;
     justify-content: center;
     display: inline-flex;
     margin-top: 10px;
-    border: 1px solid white;
+    border: 2px solid #999797;
 }
 
 
