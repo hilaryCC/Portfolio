@@ -24,6 +24,14 @@ export function animateCircles(circles) {
     coords.y = e.clientY;
   });
 
+  window.addEventListener("touchmove", (e) => {
+
+    // Get the first touch point
+    const touch = e.touches[0];
+    coords.x = touch.clientX;
+    coords.y = touch.clientY;
+});
+
   const animate = () => {
     let x = coords.x;
     let y = coords.y;

@@ -34,8 +34,8 @@ const About = () => {
             </p>
             <p>
               Most of my projects where build during collegue, find 
-              my re-uploaded repositories 
-              <a href="https://github.com/hilaryCC" target='_blank'> here<i className="bi bi-github"></i></a>
+              my re-uploaded repositories&nbsp;
+              <a href="https://github.com/hilaryCC" target='_blank' style={ {color: "rgb(131, 0, 96)", textDecoration: "underline"}}>here<i className="bi bi-github" style={ {color: "rgb(131, 0, 96)" }}></i></a>
               
             </p>
             <p>

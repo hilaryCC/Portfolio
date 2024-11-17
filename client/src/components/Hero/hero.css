@@ -8,15 +8,17 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 }
 
 .hero-text{
     text-align: center;
-    max-width: 1200px;
+    max-width: 75rem;
+    padding: 0 1.25rem;
 }
 
 .hero-text h1{
-    font-size: 75px;
+    font-size: 4.5rem;
     font-weight: 600;
     background: linear-gradient(
         to right,
@@ -81,11 +83,11 @@
 }
 
 .hero-text h2{
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 600;
     font-family: "Bricolage Grotesque", sans-serif;
-    border-right: 5px solid;
-    letter-spacing: 3px;
+    border-right: 0.3rem solid;
+    letter-spacing: 0.19rem;
     max-width: fit-content;
     width: 100%;
     white-space: nowrap;
@@ -105,9 +107,9 @@
 
 .hero-text p{
     width: 90%;
-    margin: 10px auto 20px;
+    margin: 0.625rem auto 1.25rem;
     line-height: 1.4;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: "Bricolage Grotesque", sans-serif;
 
 }
