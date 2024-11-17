@@ -36,3 +36,53 @@ nav ul li{
     margin: 0.3rem 1.25rem;
     font-size: 1rem;
 }
+
+.list-icon{
+    color: black;
+    font-size: 1.75rem;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 840px){
+    nav{
+        padding: 1rem 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #830060;
+        z-index: -1;
+        width: 200px;
+        padding-top: 2.5rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        transition: 0.5s;
+        border-radius: 5%;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav .btn{
+        color: white ;
+    }
+    nav .btn:hover{
+        background: white;
+        color: black;
+    }
+    .list-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .side-menu{
+        right: -300px;
+        color: white;
+    }
+
+}
