@@ -72,7 +72,7 @@ const About = () => {
                 </p>
                 <ul>
                   <li><i className="bi bi-check2-circle"></i>Industrial Electronics</li>
-                  <li><i className="bi bi-check2-circle"></i>Electrical Desingning</li>
+                  <li><i className="bi bi-check2-circle"></i>Electrical Designing</li>
                   <li><i className="bi bi-check2-circle"></i>Machine Maintenance</li>
                 </ul>
               </div>
