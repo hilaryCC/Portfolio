@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './hero.css'
 import arrow from '../../assets/arrow.png'
 import whitearrow from '../../assets/whitearrow.png'
+import { Link, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 const Hero = () => {
     const [iconSrc, setIconSrc] = useState(arrow);
@@ -20,7 +21,10 @@ const Hero = () => {
                 onMouseEnter={() => setIconSrc(whitearrow)}
                 onMouseLeave={() => setIconSrc(arrow)}
                 >
-                    Know more
+                    <Link to='about' smooth={true} offset={-260} duration={500}>
+                        Know more
+                    </Link>
+                    
                 <img src={iconSrc} alt="" />
             </button>
         </div>
